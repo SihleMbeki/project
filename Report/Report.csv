@@ -1,0 +1,25 @@
+Action,Status
+Automation,
+Register Test,Passed
+Home page loaded,Passed
+Clicked Register,Passed
+Register Page Loaded,Passed
+Entered username,Passed
+Entered email address,Passed
+Entered password,Passed
+Entered confirm password,Passed
+Clicked Next,Passed
+Personal details section loaded,Passed
+Entered First Name,Passed
+Entered Last Name,Passed
+Day of the birth selected,Passed
+Month of the birth selected,Passed
+Year of the birth selected,Passed
+Clicked Next,Passed
+loaded contact details section,Passed
+Entered zipcode,Passed
+Entered zipcode,Passed
+Entered phone number,Passed
+Selected terms and conditions,Passed
+Clicked register,Passed
+Test Complete,

@@ -26,14 +26,15 @@ namespace Tests
         public void TearDown()
         {
             driver.Quit();
-           
+
         }
-        public void Complete(){
-             report.testComplete();
+        public void Complete()
+        {
+            report.testComplete();
         }
         public static void launchSite(String url)
         {
-            
+
             try
             {
                 driver.Navigate().GoToUrl(url);
@@ -56,14 +57,15 @@ namespace Tests
             catch (Exception e)
             {
                 report.StepFailed(e.ToString(), "Failed");
+                driver.Close();
                 return false;
             }
         }
-        public void pause(int waitTime)
+        public static void pause(int waitTime)
         {
             Thread.Sleep(waitTime);
         }
-        public bool ClickElementJS(By selector)
+        public static bool ClickElementJS(By selector)
         {
             try
             {
@@ -72,13 +74,35 @@ namespace Tests
                 js.ExecuteScript("arguments[0].click()", element);
                 return true;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 report.StepFailed(e.ToString(), "Failed");
+              //  report.testComplete();
+                driver.Close();
                 return false;
             }
         }
-        public bool EnterText(By selector, string text)
+
+        public static bool selectDropDown(String xpath, String option)
+        {
+            try
+            {
+                driver.FindElement(By.XPath(xpath)).SendKeys(Keys.Down);
+                pause(1000);
+                driver.FindElement(By.XPath(xpath)).SendKeys(Keys.Enter);
+            }
+            catch (Exception e)
+            {
+                report.StepFailed(e.ToString(), "Failed");
+                //report.testComplete();
+                driver.Close();
+                return false;
+
+            }
+            //report.testComplete();
+            return true;
+        }
+        public static bool EnterText(By selector, string text)
         {
             try
             {
@@ -87,9 +111,11 @@ namespace Tests
                 element.SendKeys(text);
                 return true;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 report.StepFailed(e.ToString(), "Failed");
+                //report.testComplete();
+                driver.Close();
                 return false;
             }
         }
@@ -109,6 +135,8 @@ namespace Tests
             catch (Exception e)
             {
                 report.StepFailed(e.ToString(), "Failed");
+               // report.testComplete();
+                driver.Close();
                 throw;
             }
 
@@ -128,6 +156,8 @@ namespace Tests
             catch (Exception e)
             {
                 report.StepFailed(e.ToString(), "Failed");
+               // report.testComplete();
+                driver.Close();
                 return false;
             }
             return true;

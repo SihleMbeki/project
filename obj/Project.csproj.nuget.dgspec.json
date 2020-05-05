@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sihle\\Music\\Project\\Project.csproj": {}
+    "C:\\Users\\Sihle\\Pictures\\ProjectFiles\\project\\Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sihle\\Music\\Project\\Project.csproj": {
+    "C:\\Users\\Sihle\\Pictures\\ProjectFiles\\project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sihle\\Music\\Project\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\Sihle\\Pictures\\ProjectFiles\\project\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\Sihle\\Music\\Project\\Project.csproj",
+        "projectPath": "C:\\Users\\Sihle\\Pictures\\ProjectFiles\\project\\Project.csproj",
         "packagesPath": "C:\\Users\\Sihle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sihle\\Music\\Project\\obj\\",
+        "outputPath": "C:\\Users\\Sihle\\Pictures\\ProjectFiles\\project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sihle\\AppData\\Roaming\\NuGet\\NuGet.Config"

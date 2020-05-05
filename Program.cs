@@ -8,19 +8,19 @@ namespace Project
     {
         static void Main(string[] args)
         {
-       
-            TestSuite Tests = new TestSuite();
-      
-            // Tests.SetUp();
-            // Tests.test1();
-            // Tests.TearDown();
-            // Tests.Complete();
-    
 
+            TestSuite Tests = new TestSuite();
+            //COMMENT TO EXECUTE TEST TWO
             Tests.SetUp();
-            Tests.test2();
+            Tests.test1();
             Tests.TearDown();
-               Tests.Complete();
+
+
+            //UNCOMMENT TO EXECUTE TEST TWO
+            //     Tests.SetUp();
+            //     Tests.test2();
+            //     Tests.TearDown();
+            //     Tests.Complete();
+            // }
         }
     }
-}

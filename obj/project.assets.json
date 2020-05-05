@@ -196,11 +196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sihle\\Music\\Project\\Project.csproj",
+      "projectUniqueName": "c:\\Users\\Sihle\\Pictures\\ProjectFiles\\project\\Project.csproj",
       "projectName": "Project",
-      "projectPath": "C:\\Users\\Sihle\\Music\\Project\\Project.csproj",
+      "projectPath": "c:\\Users\\Sihle\\Pictures\\ProjectFiles\\project\\Project.csproj",
       "packagesPath": "C:\\Users\\Sihle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sihle\\Music\\Project\\obj\\",
+      "outputPath": "c:\\Users\\Sihle\\Pictures\\ProjectFiles\\project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sihle\\AppData\\Roaming\\NuGet\\NuGet.Config"

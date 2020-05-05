@@ -14,6 +14,7 @@ namespace Tests
 
         public static void executeTest()
         {
+              report.stepPassed("Headline Test", "");
             if (WaitForElementByXPath(By.XPath("//a[text()='Headlines']"), 10))
             {
                 report.stepPassed("Headline loaded", "Passed");

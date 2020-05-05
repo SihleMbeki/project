@@ -20,8 +20,9 @@ namespace Tests
         {
 
             Base.launchSite("https://www.hippodromeonline.com/ ");
-               RegisterForm headLines = new RegisterForm();
-            report.stepPassed("Headline News 2", "");
+            driver.Manage().Window.Maximize();
+            RegisterForm headLines = new RegisterForm();
+
 
 
         }

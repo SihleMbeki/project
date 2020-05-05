@@ -44,7 +44,7 @@ namespace Tests
             var temp = new columns { Action = "Test Complete", Status = "" };
 
             records.Add(temp);
-            using (var writer = new StreamWriter(directory + "\\file.csv"))
+            using (var writer = new StreamWriter(directory + "\\Report.csv"))
             using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
             {
                 csv.WriteRecords(records);
