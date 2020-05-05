@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cdSWoMD87+4xM/pO9WyZ5wH0mXT15BSzalONFwWat6aIPLJrHS17TFo7jEWqzs2K7Oph9cXiT8DCQ9IjgGGDMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sihle\\Music\\Project\\Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sihle\\.nuget\\packages\\csvhelper\\15.0.5\\csvhelper.15.0.5.nupkg.sha512",
+    "C:\\Users\\Sihle\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Sihle\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Sihle\\.nuget\\packages\\selenium.webdriver\\4.0.0-alpha05\\selenium.webdriver.4.0.0-alpha05.nupkg.sha512"
+  ],
+  "logs": []
+}
